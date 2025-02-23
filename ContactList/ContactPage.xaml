@@ -7,7 +7,7 @@
     <Grid RowDefinitions="Auto,*">
 
         <Frame Grid.Row="0" BackgroundColor="LightBlue" Padding="10">
-            <Label Text="Fruits List" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <Label Text="Contacts List" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
         </Frame>
         <CollectionView Grid.Row="1" 
                     x:Name="LvContact" 
